@@ -81,6 +81,7 @@ def replay():
 print('TIC-TAC-TOE')
 
 while True:
+    the_board = [' ']*10
     player1_marker, player2_marker = player_input()
     turn = choose_first()
     print(turn + ' is up first.')
